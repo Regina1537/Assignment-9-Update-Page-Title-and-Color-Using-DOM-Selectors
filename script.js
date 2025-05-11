@@ -43,6 +43,7 @@ var Products = {
 console.log(Products);
 
 console.log("Javascript Operators");
+
 // 1.document getElementById
 const username = "Bro code";
 const welcomemsg = document.getElementById("Welcome-msg");
