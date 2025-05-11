@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   body{
+       margin: 0;
+       font-family: sans-serif;
+       min-height: 100vh;
+       background: #e55f0b;
+       display: grid;
+       place-items: center;
+   }
+   h1{
+       text-align:left;
+       margin-top: 0 10px;
+       width: 15rem;
+       font-size: x-large;
+       font-weight: bold;
+       color: rgb(43, 255, 0);
+   }
+   h2{
+    text-align:right;
+       margin-top: 0 10px;
+       font-size: x-large;
+       font-weight: bold;
+       color: rgb(0, 0, 255);
+   }
+   h3{
+    text-align: center;
+       margin-top: 0 10px;
+       font-size: x-large;
+       font-weight: 700;
+       color: aqua;
+   }
+   h4{
+    text-align: center;
+       margin-top: 0;
+       font-size: x-large;
+       font-weight: 700;
+       color: rgb(251, 255, 0);
+   }
+   div.class{
+     display: flex;
+     font-size: x-large;
+       font-weight: bold;
+       color: rgb(0, 217, 255);
+   }
+   form{
+       display: flex;
+       flex-direction: column;
+       font-size: x-large;
+       font-weight: bold;
+       color: rgb(235, 18, 18);
+   }
+   label{
+       font-size: 1.25rem;
+       width: 100%;
+   }
+   input{
+       margin: 1em 0;
+       padding: 0.5em  0.75em;
+       width: 100%;
+   }
+   li{
+    text-align: left;
+    justify-items: center;
+    font-size: medium;
+    font-weight: bolder;
+    font-style: oblique;
+    color: rgb(221, 0, 255);
+   }
+   select{
+       margin: 1em 0;
+       width: 100%;
+       padding: 0.5em 0.75em;
+   }
+   button{
+       margin-top: 3rem;
+       margin-bottom: 10px;
+       border-radius: 0 10 solid black;
+       box-shadow: #dd1039;
+   }
+   .input-item{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border-radius: 0 10 solid black;
+       box-shadow: #dd1039;
+   }
+   .card{
+       width:min(500px,90%);
+       margin: 0 auto;
+       background: white;
+       padding: 1.5em 2em;
+   }
+   .reset{
+       padding: 0.75em 0;
+       background: #dd1039;
+       color:black;
+       text-transform: capitalize;
+       font-weight: 700;
+       border: none;
+   }
+   @media(max-width:450px){
+       .input-item{
+           flex-direction: column;
+           background-color: lightpink;
+           color:palevioletred;
+           font-weight: bold;
+       }
+   }
+   
+   
